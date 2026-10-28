@@ -49,3 +49,23 @@ The code works, but only just. It has quality, style and security problems of th
 **Target:** aim for a Pylint score above 9.5 on your final file. A perfect 10.00/10 is very good.
 
 Be ready to explain the bugs you found and how you fixed them. You may be called on to present.
+
+---
+
+## Submission
+
+**Name:** R Saurav Srrinivas
+**SRN:** PES1UG24CS352
+
+| Tool | Before | After |
+|------|--------|-------|
+| Pylint | 5.32/10 | 10.00/10 |
+| Bandit | 6 issues (2 High, 1 Medium, 3 Low) | No issues identified |
+| Flake8 | 7 issues | 0 issues |
+
+- `hotel_booking_system.py`: cleaned version (all tool issues + 4 logic bugs fixed)
+- `issues.md`: issue table (22 issues)
+- `reflection.md`: answers to the reflection questions
+- `reports/before/` and `reports/after/`: `pylint_report.txt`, `bandit_report.txt`, `flake8_report.txt`
+
+The secret key is no longer hardcoded. To set one: `export HOTEL_SECRET_KEY=...`
