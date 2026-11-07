@@ -22,5 +22,9 @@ A small Python module that works out out-of-warranty repair charges by plan, pro
 |-------------|------|
 | Code coverage test cases | `CodeCoverageTest_warranty_claims.py` |
 | Code coverage report | `CodeCoverage_Report_PES1UG24CS352.png` |
+| Branch coverage test cases | `BranchCoverageTest_warranty_claims.py` |
+| Branch coverage report | `BranchCoverage_Report_PES1UG24CS352.png` |
 
 **Code coverage:** 12 tests, `warranty_claims.py` — 37/37 statements, **100%** line coverage.
+
+**Branch coverage:** 30 tests, `warranty_claims.py` — 26/26 branches, **100%** branch coverage.
